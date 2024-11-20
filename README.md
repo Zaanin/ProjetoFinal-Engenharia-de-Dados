@@ -21,10 +21,12 @@ A arquitetura do pipeline segue a abordagem **medalhão**, com as camadas **Land
 
 ### Pré-requisitos
 - Python 3.9 ou superior
+- PostgreSQL instalado e configurado
+- Apache Airflow para orquestração
 - Apache Spark 3.4.3
-- Ferramentas de orquestração (e.g., Airflow, Dagster)
-- Data Lake (usando Delta Lake ou Apache Iceberg)
 - Biblioteca Faker para geração de dados sintéticos
+- Conta no Azure para usar o ADLS Gen2 (ou equivalente local para simulação)
+- Power BI Desktop para visualização de dashboards
 
 ---
 
@@ -43,10 +45,14 @@ A arquitetura do pipeline segue a abordagem **medalhão**, com as camadas **Land
 3. Configure e inicie o Spark localmente: (Detalhe isso no README posteriormente.)
 
 ### Ferramentas utilizadas
-- Apache Spark: Transformação de dados
-- Delta Lake: Gerenciamento de dados no Data Lake
-- MkDocs: Documentação do projeto
-- Faker: Geração de dados sintéticos
+- [MkDocs](https://www.mkdocs.org): Documentação do projeto.
+- [Faker](https://faker.readthedocs.io): Geração de dados sintéticos.
+- [PostgreSQL](https://www.postgresql.org): Banco de dados relacional para armazenar os dados.
+- [Apache Airflow](https://airflow.apache.org): Orquestração e agendamento de tarefas no pipeline de dados.
+- [Apache Spark](https://spark.apache.org): Transformação de dados em grande escala.
+- [Azure Data Lake Storage Gen2](https://azure.microsoft.com/en-us/products/storage/data-lake-storage/): Repositório para armazenamento em camadas.
+- [Power BI](https://powerbi.microsoft.com): Visualização de dados e construção de dashboards interativos.
+
 
 ### Autores
 - Aluno 1: Angiel Leal - (https://github.com/angielleal)
