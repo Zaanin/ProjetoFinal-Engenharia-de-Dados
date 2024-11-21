@@ -3,6 +3,10 @@
 ### Licença
 [MIT License](LICENSE)
 
+---
+
+### Descrição
+
 Este projeto implementa um pipeline de dados relacionados ao tema de **educação**, com foco em análise de desempenho, frequência e engajamento de alunos. O objetivo é criar um Data Lake e aplicar técnicas de transformação de dados com Apache Spark para suportar a visualização de KPIs e métricas relevantes em um dashboard.
 
 ---
